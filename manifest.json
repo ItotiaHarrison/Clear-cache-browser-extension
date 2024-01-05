@@ -1,1 +1,17 @@
-
+{
+    "manifest_version": 2,
+    "name": "Clear Cache",
+    "version": "1.0",
+    "description": "Clear Cache Extension",
+    "permissions": [
+        "storage",
+        "tabs",
+        "browsingData"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "clearcache.html"
+    }
+}
